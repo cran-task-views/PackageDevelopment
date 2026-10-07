@@ -173,6 +173,7 @@ that may be used in package documentation or information files and may be
 used to create promotional material such as stickers.
 
 - `r pkg("hexSticker")` creates hex sticker designs based on R plots or image files.
+- `r pkg("affiner")` provides `grid.isocube()` to create hex logos in the form of a 3D isometric cube, to look like a box or physical package.
 - `r github("mitchelloharawild/hexwall")` generates an image of tessellated hex sticker designs.
 
 ### Packages tests
