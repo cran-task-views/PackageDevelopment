@@ -3,7 +3,7 @@ name: PackageDevelopment
 topic: Package Development and Maintenance
 maintainer: Lluís Revilla, Heather Turner
 email: lluis.revilla@gmail.com
-version: 2026-10-05
+version: 2026-10-08
 source: https://github.com/cran-task-views/PackageDevelopment/
 ---
 
@@ -104,7 +104,7 @@ See the "Related Links" section for other guides, including those from
 
 - `r pkg("devtools", priority = "core")` facilitates interactive development of R and compiled code via the `load_all()` function to simulate installing and reloading the package. Additional functions support generating documentation, testing, checking a package and submitting to CRAN.
 - `r pkg("usethis", priority = "core")` provides helpers such as `use_r()`, `use_data()`, `use_vignette()`, or `use_news_md()` to add new components, along with functions to support specific packages or workflows, such as `use_testthat()` or `use_git()`.
-- `r pkg("packager")` performs package development tasks (document, build, check, etc) with `r pkg("fakemake")` or GNU make, so that make targets are only regenerated when files in the make chain have been updated. Provides a `create()` function to initialize a package with the required structure and an `infect()` function to work with a package initialized another way. The `r github("ComputationalProteomicsUnit/maker")` repository provides an external Makefile to perform development tasks.
+- `r pkg("packager")` performs package development tasks (document, build, check, etc) with `r pkg("fakemake")` or GNU make, so that make targets are only regenerated when files in the make chain have been updated. Provides a `create()` function to initialize a package with the required structure and an `infect()` function to work with a package initialized another way. The `r codeberg("lgatto/maker")` repository provides an external Makefile to perform development tasks.
 - `r github("rdatsci/rtcl")` provides command line utilities for development tasks, which are also provided as regular R functions.
 - `r github("unDocUMeantIt/roxyPackage")` provides the `roxy.package()` function to generate help files, vignettes and package-level documentation (e.g., NEWS and README) in both PDF and HTML; check and build packages, and manage a local package repository. Tasks can be performed individually or in combination.
 - `r github("JamesHWade/gpttools")` facilitates using large language models (from an AI service provider or a local model) for package development, e.g. converting code to a function; adding documentation or tests, or identifying improvements.
@@ -173,6 +173,7 @@ that may be used in package documentation or information files and may be
 used to create promotional material such as stickers.
 
 - `r pkg("hexSticker")` creates hex sticker designs based on R plots or image files.
+- `r pkg("affiner")` provides `grid.isocube()` to create hex logos in the form of a 3D isometric cube, to look like a box or physical package.
 - `r github("mitchelloharawild/hexwall")` generates an image of tessellated hex sticker designs.
 
 ### Packages tests
