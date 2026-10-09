@@ -550,6 +550,7 @@ to compare the DESCRIPTION or NAMESPACE across versions.
 loaded or attached packages, `session_info()` aims to highlight the key details
 for these packages, including where packages were installed from. However, the
 order of loading is lost as the packages are recorded alphabetically.
+- `r pkg("changer")` helps with the process of changing the name of a package.
 
 ### Tracking usage
 
