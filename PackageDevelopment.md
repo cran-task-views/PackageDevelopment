@@ -132,7 +132,7 @@ WRE reference: [Writing R documentation files](https://CRAN.R-project.org/doc/ma
 - `r pkg("Rdpack")` provides functions and Rd macros for developing documentation, e.g. adding template documentation for new arguments; importing references from BibTeX files, and evaluating R code then inserting the resulting output or graphic.
 - `r pkg("Rd2md")` converts Rd files to Markdown and creates a combined Markdown reference manual; `r github("Genentech/rd2markdown")` generates Markdown from a source Rd file or the help page of an installed package.
 - `r github("coolbutuseless/rd2list")` converts Rd files to an R list.
-- `r pkg("mathjaxr")` provides Rd macros to render equations with 'MathJax'.
+- `r pkg("mathjaxr")` provides Rd macros to render equations with 'MathJax' if [default method](https://cran.r-project.org/doc/manuals/r-devel/R-exts.html#Mathematics-1) doesn't suit well.
 
 #### Vignettes
 
