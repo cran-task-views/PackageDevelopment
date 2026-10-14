@@ -3,7 +3,7 @@ name: PackageDevelopment
 topic: Package Development and Maintenance
 maintainer: Lluís Revilla, Heather Turner
 email: lluis.revilla@gmail.com
-version: 2026-10-08
+version: 2026-10-14
 source: https://github.com/cran-task-views/PackageDevelopment/
 ---
 
@@ -551,6 +551,7 @@ to compare the DESCRIPTION or NAMESPACE across versions.
 loaded or attached packages, `session_info()` aims to highlight the key details
 for these packages, including where packages were installed from. However, the
 order of loading is lost as the packages are recorded alphabetically.
+- `r pkg("changer")` helps with changing the name of a package.
 
 ### Tracking usage
 
