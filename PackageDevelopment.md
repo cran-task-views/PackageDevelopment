@@ -3,7 +3,7 @@ name: PackageDevelopment
 topic: Package Development and Maintenance
 maintainer: Lluís Revilla, Heather Turner
 email: lluis.revilla@gmail.com
-version: 2026-10-14
+version: 2026-10-15
 source: https://github.com/cran-task-views/PackageDevelopment/
 ---
 
@@ -159,7 +159,7 @@ WRE reference: [Writing package vignettes](https://CRAN.R-project.org/doc/manual
 `utils::news(package = "pkg")` can be used to extract the NEWS for a package and display it in a browser.
 
 - `r pkg("desc")` provides tools to read, write, create, and manipulate DESCRIPTION files.
-- `r pkg("semver")` provides tools for operating on [semantic version strings](http://semver.org).
+- `r pkg("semver")` and `r pkg("smvr")` provide tools for operating on [semantic version strings](http://semver.org). `r pkg("smvr")` is designed to work well with Tidyverse packages.
 - `r pkg("newsmd")` provides functions to create or update a `NEWS.md` file. `r pkg("fledge")` and `r pkg("autonewsmd")` generate `NEWS.md` from git commit messages following conventions specific to each package.
 - `r pkg("codemetar")` and the leaner `r pkg("codemeta")` convert metadata from packages sources, such as DESCRIPTION and CITATION, to the CodeMeta `JSON-LD` format. This is a cross-language metadata standard used by search engines, software repositories etc.
 - `r pkg("cffr")` and `r pkg("citation")` generate a `CITATION.cff` file from package metadata and provide utilities to work with such files, e.g. converting to/from `"bibentry"` objects (see `utils::bibentry()`). `r pkg("cffr")` provides helpers for maintenance via git. `CITATION.cff` is a cross-language citation file format recognized by software repositories and citation managers.
